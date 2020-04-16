@@ -1,0 +1,14 @@
+body{
+    background-color:gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cabecalho{
+    border: black 1px   solid;
+    border-radius: 10px;
+    padding-left: 50%;
+}
+a{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: unset;
+}
