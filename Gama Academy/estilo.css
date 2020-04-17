@@ -5,10 +5,60 @@ body{
 #cabecalho{
     border: black 1px   solid;
     border-radius: 10px;
-    padding-left: 50%;
+    text-align: center;
+    margin-top: 20 px;
+    margin-bottom: 20 px;
 }
 a{
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: unset;
+    text-decoration: underline;
+    margin-top: 60 px;
+    margin-bottom: 60 px;
+}
+
+#navbar{
+    border: black 1px   solid;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+p{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16 px;
+}
+
+#conteudo{
+    text-align: left;
+    margin-left: 10 px;
+    margin-top: 20 px;
+    margin-bottom: 20 px;
+}
+
+.conteudoBlog{
+    background-color: white;
+    text-align: justify;
+    font-size: 14px;
+   margin: 30px;
+   border: 1px solid black;
+}
+
+#covid{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    background-color: darkgreen;
+    align-items: stretch;
+}
+
+#covid2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    background-color: darkgreen;
+    align-items: stretch;
 }
